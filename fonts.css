@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "pixelated";
+    src: url("pixelated.ttf");
+}
+
+@font-face {
+    font-family: "newake";
+    src: url("newake.otf");
+}
+
+a:active {
+    color: turquoise;
+}
+
+a:visited {
+    color: turquoise;
+}
+
+a:hover {
+    color: turquoise;
+}
