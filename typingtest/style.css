@@ -1,0 +1,473 @@
+@import 'font.css';
+
+body {
+  background: #222831;
+  text-align: center;
+  font-size: 20px;
+}
+.howtop {
+  font-family: 'pixelfont';
+  font-size: 50px;
+  border-color: #393e46;
+  border-width: 10px;
+  border-style: solid;
+  background-color: #353a42;
+  text-shadow: 1px 1px 2px black;
+  border-radius: 20px;
+}
+#zakar{
+  display:contents;
+  font-family: 'pixelfont';
+}
+#justwhyyoureadthesourcecodebro:hover {
+  color:black;
+}
+#wtfyoustillreadthesourcecodebro:hover {
+  color:black;
+}
+#okdudeifyoureadthesourcecodetohereiwillsaycongratulationsyouwinbutpleaseifyoucanhelpmeinhtmlandthiswebsiteprogrammingcometogithubthanksdude:hover {
+  color:black;
+}
+#start {
+  border-style: solid;
+  border-width: 10px;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(0,0,0)" /></svg>');
+  border-image-repeat: stretch;
+border-image-width: 2;
+border-image-slice: 2;
+border-image-outset: 2;
+position: relative;
+display:grid;
+margin: 4px;
+padding: 8px 15px;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+color: white;
+background-color: #00adb5;
+text-shadow: 1px 1px 4px #000000;
+font-size: 52px;
+font-family: 'pixelfont';
+text-decoration: none;
+}
+#howto {
+  border-style: solid;
+  border-width: 10px;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(0,0,0)" /></svg>');
+  border-image-repeat: stretch;
+border-image-width: 2;
+border-image-slice: 2;
+border-image-outset: 2;
+position: relative;
+display:grid;
+margin: 4px;
+padding: 8px 15px;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+color: white;
+background-color: #00adb5;
+text-shadow: 1px 1px 4px #000000;
+font-size: 52px;
+font-family: 'pixelfont';
+text-decoration: none;
+}
+.aaa{
+  font-family: 'pixelfont';
+}
+#about {
+  border-style: solid;
+  border-width: 10px;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(0,0,0)" /></svg>');
+  border-image-repeat: stretch;
+border-image-width: 2;
+border-image-slice: 2;
+border-image-outset: 2;
+position: relative;
+display:grid;
+margin: 4px;
+padding: 8px 15px;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+color: white;
+background-color: #00adb5;
+text-shadow: 1px 1px 4px #000000;
+font-size: 52px;
+font-family: 'pixelfont';
+text-decoration: none;
+}
+.animlogo {
+  font-family: 'pixelfont';
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 110px;
+  animation-delay: 1000ms;
+}
+.t1 {
+  animation: colre 1000ms;
+  animation-iteration-count: infinite;
+}
+
+.non {
+  border-style: solid;
+  border-width: 10px;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(0,0,0)" /></svg>');
+  border-image-repeat: stretch;
+border-image-width: 2;
+border-image-slice: 2;
+border-image-outset: 2;
+position: relative;
+display:grid;
+margin: 4px;
+padding: 8px 15px;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+color: white;
+background-color: #ff0000;
+text-shadow: 1px 1px 4px #000000;
+font-size: 52px;
+font-family: 'pixelfont';
+text-decoration: none;
+}
+
+.y1 {
+  animation: colre 960ms;
+  animation-iteration-count: infinite;
+}
+.p1 {
+  animation: colre 920ms;
+  animation-iteration-count: infinite;
+}
+.i1 {
+  animation: colre 880ms;
+  animation-iteration-count: infinite;
+}
+.n1 {
+  animation: colre 840ms;
+  animation-iteration-count: infinite;
+}
+.g1 {
+  animation: colre 800ms;
+  animation-iteration-count: infinite;
+}
+.t2 {
+  animation: colre 760ms;
+  animation-iteration-count: infinite;
+}
+.e1 {
+  animation: colre 720ms;
+  animation-iteration-count: infinite;
+}
+.s1 {
+  animation: colre 680ms;
+  animation-iteration-count: infinite;
+}
+.t3 {
+  animation: colre 640ms;
+  animation-iteration-count: infinite;
+}
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: greenyellow;
+}
+.wierd {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  animation: colre 4200ms infinite;
+}
+.yes {
+  border-style: solid;
+  border-width: 10px;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(0,0,0)" /></svg>');
+  border-image-repeat: stretch;
+border-image-width: 2;
+border-image-slice: 2;
+border-image-outset: 2;
+position: relative;
+display:grid;
+margin: 4px;
+padding: 8px 15px;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+color: white;
+background-color: #00ff00;
+text-shadow: 1px 1px 4px #000000;
+font-size: 52px;
+font-family: 'pixelfont';
+text-decoration: none;
+}
+.morewierd {
+  font-family: 'pixelfont';
+  font-size: 30px;
+  animation: colre 4200ms infinite;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(45deg) scale(2);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes colre {
+  0% {
+    color:#6b3bf1;
+  }
+  33% {
+    color: #1096ef;
+  }
+  50% {
+    color: #39ee0b;
+  }
+  66% {
+    color: #eeeb0a;
+  }  
+  80% {
+    color: #ef920f;
+  }
+  90% {
+    color: #ec0c0a;
+  }
+  100% {
+    color: #6b3bf1;
+  }
+}
+#oo1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#hh1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#tt1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#hh2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ee1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#mm1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ll1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ss1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ee2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#rr1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#yy1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ee3 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#vv1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ee4 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#rr2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#yy2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#bb1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#oo2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#dd1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#yy3 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ww1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#aa1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#nn1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#tt2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ss2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#tt3 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#oo3 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#bb1 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ee5 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#mm2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#yy4 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ee6 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#nn2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#ee7 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#mm3 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#yy5 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#bb2 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
+#bb3 {
+  font-family: 'pixelfont';
+  font-size: 100px;
+  color: #00ff00;
+  opacity: .10;
+}
